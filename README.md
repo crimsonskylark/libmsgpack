@@ -54,7 +54,3 @@ int main() {
 ## Tests
 
 This library is missing a more thorough test suite besides the simple unit tests at `tests.cpp` as well as fuzzing. I plan on adding it eventually, but PRs are welcome.
-
-## Notes
-
-Writing dynamically sized types to the stream is always opportunistic, but writing 
